@@ -1,2 +1,7 @@
 # Property-specification
-Property specification in JS 
+ 
+var sampleObject = {
+ hello: 'world'
+};
+Object.getOwnPropertyDescriptor(sampleObject, 'hello');
+// Object {value: "world", writable: true, enumerable: true, configurable: true}
